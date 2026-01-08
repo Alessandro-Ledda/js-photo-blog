@@ -16,8 +16,11 @@ header{
     padding-top: 20px;
 }
 
+.main{
+  background-image: url(./imgs/cork.png);  
+}
+
 #container{
-    background-image: url(./imgs/cork.png);
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
@@ -27,7 +30,8 @@ header{
 
 .card{
     width: calc(100% / 3 - 20px);
-    border: 2px solid red;
+    text-align: center;
+    background-color: white;
 }
 
 
@@ -35,6 +39,7 @@ header{
 .img-card img{
     height: 200px;
     width: 200px;
+    
 }
 
 
