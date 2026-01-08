@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Edu TAS Beginner", cursive;
 }
 
 header{
@@ -17,7 +18,8 @@ header{
 }
 
 .main{
-  background-image: url(./imgs/cork.png);  
+  background-image: url(./imgs/cork.png);
+
 }
 
 #container{
@@ -26,13 +28,16 @@ header{
     width: 1000px;
     margin: 0 auto;
     gap: 20px;
-
+    padding-top: 10px;
+    justify-content: space-around;
 }
 
 .card{
     width: calc(100% / 3 - 20px);
     text-align: center;
     background-color: white;
+    width: 250px;
+    height: 350px;
 }
 
 
@@ -40,7 +45,10 @@ header{
 .img-card img{
     height: 200px;
     width: 200px;
-    
+}
+
+p{
+    margin-top: 20px;
 }
 
 

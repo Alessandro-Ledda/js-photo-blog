@@ -39,3 +39,12 @@ axios.get(endPoint)
     .catch()
     .finally()
 
+const alessandro = {
+    name: "Alessandro",
+    hobby: ['JS', 'Correre'],
+};
+
+// const name = alessandro.name;
+// const hobby = alessandro.hobby;
+
+const { name, hobby } = alessandro;
